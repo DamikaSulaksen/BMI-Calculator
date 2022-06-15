@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".OverweightExercises">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="#8BC34A"
+        android:text="               BMI Calculator"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="@string/OverWeight_Exercises"
+        android:textColor="#131313"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonweek1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:onClick="changeOverweightExercisesFragment"
+        android:text="WEEK1"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonweek2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:onClick="changeOverweightExercisesFragment"
+        android:text="WEEK2"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonweek3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:onClick="changeOverweightExercisesFragment"
+        android:text="WEEK3"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonweek4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:onClick="changeOverweightExercisesFragment"
+        android:text="WEEK4"
+        android:textSize="24sp" />
+
+    <fragment
+        android:id="@+id/overweightfragmentdefault"
+        android:name="com.example.bmicalculator.Overweight_ExerciseFragment1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OverWeightDiet" >
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="#8BC34A"
+        android:text="                 BMI Calculator"
+        android:textColor="#0E0E0E"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="@string/Overweight_diet"
+        android:textColor="#121111"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonoverweightdiet1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        android:onClick="overweightDiet"
+        android:text="WEEK 1" />
+
+    <Button
+        android:id="@+id/buttonoverweightdiet2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFC107"
+        android:onClick="overweightDiet"
+        android:text="WEEK 2" />
+
+    <Button
+        android:id="@+id/buttonoverweightdiet3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        android:onClick="overweightDiet"
+        android:text="WEEK 3" />
+
+    <Button
+        android:id="@+id/buttonoverweightdiet4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFC107"
+        android:onClick="overweightDiet"
+        android:text="WEEK 4" />
+
+    <fragment
+        android:id="@+id/overweightdietdefault"
+        android:name="com.example.bmicalculator.overweightDietFragment1"
+        android:layout_width="match_parent"
+        android:layout_height="413dp" />
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bmicalculator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Diet_planJ"></activity>
+        <activity android:name=".WaterIntakeMain" />
+        <activity android:name=".NWeightExercise2" />
+        <activity android:name=".NWExe4" />
+        <activity android:name=".NWExe3" />
+        <activity android:name=".NWExe2" />
+        <activity android:name=".NWExe1" />
+        <activity android:name=".AddFeedback" />
+        <activity android:name=".NWWeightExercise" />
+        <activity android:name=".NWeightDiet" />
+        <activity android:name=".NWDiet3" />
+        <activity android:name=".NWDiet2" />
+        <activity android:name=".NWDiet1" />
+        <activity android:name=".NWMainPage" />
+        <activity android:name=".DietPlanner" />
+        <activity android:name=".underweightExercises" />
+        <activity android:name=".underWeightDiet" />
+        <activity android:name=".underweight" />
+        <activity android:name=".Add_Feedback" />
+        <activity android:name=".UpdateWeight" />
+        <activity android:name=".ViewWeightData" />
+        <activity android:name=".WaterIntakeJ" />
+        <activity android:name=".WeightTracker">
+            <intent-filter>
+                <action android:name=".WeightTracker" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ExercisePla" />
+        <activity android:name=".OverweightExercises">
+            <intent-filter>
+                <action android:name=".OverweightExercises" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OverWeightDiet">
+            <intent-filter>
+                <action android:name=".OverWeightDiet" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ExercisePlanJournal">
+            <intent-filter>
+                <action android:name=".ExercisePlanJournal" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OverWeight">
+            <intent-filter>
+                <action android:name=".OverWeight" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Calculation" />
+        <activity android:name=".Options" />
+        <activity android:name=".BMI_Classification" />
+        <activity android:name=".Sign_up" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
